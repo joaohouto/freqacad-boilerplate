@@ -1,13 +1,14 @@
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
-
   :root{
     --primary: #3277E0;
     --danger: #DF3030;
+    --danger-transparent: rgba(223, 48, 48, 0.2);
     --success: #3CA422;
+    --success-transparent: rgba(60, 164, 34, 0.2);
     --warning: #FFA800;
+    --warning-transparent: rgba(255, 168, 0, 0.2);
   }
 
   * {
